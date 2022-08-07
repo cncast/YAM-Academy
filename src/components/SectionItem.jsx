@@ -2,7 +2,7 @@
 export const SectionItem = ({section = {}}) => {
   return (
 
-    <div className="col-lg-3 col-md-4 col-sm-6 mt-5">
+    <div className="col-lg-3 col-md-4 col-sm-6 col-6 mt-5">
         <div className="card profile-card-5" style={{backgroundColor: '#F2F3F4'}}>
             <div className="card-img-block">
                 <img 

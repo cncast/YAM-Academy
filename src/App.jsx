@@ -1,5 +1,5 @@
-import { Navbar } from "./assets/components/Navbar"
-import { SectionList } from "./assets/components/SectionList"
+import { Navbar } from "./components/Navbar"
+import { SectionList } from "./components/SectionList"
 
 function App() {
   return (
