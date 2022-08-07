@@ -2,7 +2,7 @@
 export const SectionItem = ({section = {}}) => {
   return (
 
-    <div className="col-lg-3 col-md-4 col-sm-6 col-6 mt-5">
+    <div className="col-lg-3 col-md-4 col-sm-6 col-10 mt-5">
         <div className="card profile-card-5" style={{backgroundColor: '#F2F3F4'}}>
             <div className="card-img-block">
                 <img 
@@ -22,15 +22,18 @@ export const SectionItem = ({section = {}}) => {
                 <span>Vi</span>
                 <span> · 16:00 · 1h</span>
             </p>
-            <p className="card-text mb-1 text-muted">
-                <small>Inicio: 12/09/2022</small>
-            </p>
-            <p className="card-text mb-1 text-muted">
-                <small>Finaliza: 20/12/2022</small>
-            </p>
+            <div className="row">
+                
+                <p className="card-text mb-1 text-muted col-5">
+                    <small>Inicio: 12/09/2022</small>
+                </p>
+                <p className="card-text mb-1 text-muted col-5">
+                    <small>Finaliza: 20/12/2022</small>
+                </p>
+            </div>
             <div className="d-flex justify-content-between mt-3">
                 <span className="card-text text-muted"><small>14 cupos</small></span>
-                <button className="btn btn-outline-primary mr-3">Matricular</button>
+                <button className="btn btn-outline-primary mr-3 ">Matricular</button>
             </div>
             </div>
         </div>
