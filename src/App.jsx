@@ -1,12 +1,10 @@
-import { Navbar } from "./components/Navbar"
-import { SectionList } from "./components/SectionList"
+import { AppRouter } from "./router/AppRouter"
 
 function App() {
   return (
-    <div className="container">
-        <Navbar/>
-        <SectionList openedSections={[{id: 1},{id: 2},{id: 3},{id: 4},{id: 5},{id: 6}]}/>
-    </div>
+    // <div className="container">
+        <AppRouter/>
+    // </div>
   )
 }
 
