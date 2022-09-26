@@ -17,7 +17,8 @@ export const getModulesByUserType = (userType) => {
         description: 'Estadisticas, graficos, etc',
         iconClasses: 'fas fa-chart-pie',
         color: '#19986A',
-        path: '/'
+        path: '/controlPanel',
+        isBuilding: true
       },{
         name: 'Entrenamiento',
         description: 'Practicar las Lecciones de tus clases prsentes y pasadas',
@@ -31,7 +32,7 @@ export const getModulesByUserType = (userType) => {
         color: '#EAEA00',
         path: '/'
       },{
-        name: 'Solicitudes',
+        name: 'Tus Solicitudes',
         description: 'Secciones privadas, creditos a tu cuenta, etc',
         iconClasses: 'fa-regular fa-handshake',
         color: '#A500AA',

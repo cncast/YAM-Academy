@@ -6,7 +6,6 @@ export const CampusPage = () => {
   return (
     <div className="row centered-children" style={{
       textAlign: 'center',
-      // backgroundColor: 'gainsboro',
       width: '80%',
       height: (window.innerHeight * 0.8),
       margin: 'auto',

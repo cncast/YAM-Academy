@@ -3,6 +3,17 @@ body {
     height: 100%;
     width: 100%;
 }
+.supder-absolute {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background-color:#2c71b6;
+    color:aliceblue;
+    right: 5px;
+    top: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 .section-card {
     max-width: 50%;
     margin: 20px;

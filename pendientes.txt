@@ -1,0 +1,7 @@
+Detalles que faltan en YAM academy:
+
+-El loading en los awaits
+-Validaciones en registro y login (backend y login)
+-al matricular, validar que tiene libre el horario de la seccion a matricular y que cumple los requisitos de la clase
+
+-Testes de tamanho de almacenamiento en mongo db free

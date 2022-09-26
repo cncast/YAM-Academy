@@ -1,0 +1,1 @@
+export { default as academyApi } from './academyApi';
